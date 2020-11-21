@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  app:
+    container_name: empire_town_app
+    build: .
+    volumes:
+      - '.:/usr/src/empire-town'
